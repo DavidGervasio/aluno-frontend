@@ -17,7 +17,7 @@ class CreateStudent extends Component {
         data.append('nome', this.state.name);
         data.append('endereco', this.state.address);
 
-        await api.post('aluno/aluno/', data);
+        await api.post('student/student', data);
         this.props.history.push('/');
 
     }

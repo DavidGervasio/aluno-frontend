@@ -7,7 +7,7 @@ export default function Partner({ history }) {
     const [studentList, setStudentList] = useState([]);
 
     async function listStudent() {
-        const response = await api.get('aluno/listar_alunos', {
+        const response = await api.get('student/list_students', {
             headers: {
                 //authorization: 'Bearer ' + localStorage.getItem('authorization')
 
@@ -22,7 +22,7 @@ export default function Partner({ history }) {
 
     async function deleteStudent(id) {
         //OBS: o metodo delete e put esta gerando o erro 405 (Method Not Allowed) no chrome
-        const response = await api.get('aluno/delete/' + id, {
+        const response = await api.get('student/delete/' + id, {
             headers: {
                 //authorization: 'Bearer ' + localStorage.getItem('authorization')
 

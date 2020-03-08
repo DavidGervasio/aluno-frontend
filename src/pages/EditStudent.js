@@ -28,7 +28,7 @@ class EditStudent extends Component {
         data.append('endereco', this.state.address);
         data.append('id', student.id);
 
-        await api.post('aluno/alterar', data);
+        await api.post('student/update', data);
         this.props.history.push('/');
 
     }
