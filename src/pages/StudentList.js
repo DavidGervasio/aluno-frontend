@@ -45,7 +45,7 @@ export default function Partner({ history }) {
 
                     {studentList.map(student => (
                         <li>
-                            <img src={process.env.REACT_APP_API_URL + student.foto} alt='' ></img>
+                            <img src={student.foto} alt='' ></img>
                             <stronge>{student.nome}</stronge>
                             <p>{student.endereco}</p>
                             <Link to={{
