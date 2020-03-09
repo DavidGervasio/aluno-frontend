@@ -20,10 +20,10 @@ Listar aluno: GET https://aluno-backend.herokuapp.com/index.php/student/list_stu
 Deletar aluno: GET https://aluno-backend.herokuapp.com/index.php/student/delete/:id (Há navegadores que não aceitam a função delete).
 
 ## Tecnologias utilizadas
-React: Bibliteca JavaScript destinada a criação de interfaces com usuario.
+React: Biblioteca JavaScript destinada a criação de interfaces com usuário.
 
 ## Instalação e execução do programa
 1-Salve a aplicação em um diretório. 
-2-Vá até o diretorio do projeto ,via terminal linux, e digite "yran start" ou "npm start". Então um 
-navegadore será aberto.
+2-Vá até o diretório do projeto, via terminal linux  e digite "yran start" ou "npm start".
+
 
