@@ -3,7 +3,10 @@ Este projeto compõe o Frontend de uma aplicação Web e fornece um CRUD de alun
 
 ![Captura de tela de 2020-03-09 18-32-33 (1)](https://user-images.githubusercontent.com/19176989/76260425-8b1e5b80-6236-11ea-97a8-56a389a4c29a.png)
 
-![Captura de tela de 2020-03-09 18-32-33 (1)](https://user-images.githubusercontent.com/19176989/76260425-8b1e5b80-6236-11ea-97a8-56a389a4c29a.png)
+
+![Captura de tela de 2020-03-09 18-35-07 (1)](https://user-images.githubusercontent.com/19176989/76260762-4515c780-6237-11ea-8ac3-7ec792645c4c.png)
+
+
 
 ##Funções e URLs
 Registrar aluno: POST https://aluno-backend.herokuapp.com/index.php/student/student Campos(multipart/form-data): nome(String); endereco(String); foto(File).
