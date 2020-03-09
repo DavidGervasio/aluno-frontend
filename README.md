@@ -1,6 +1,9 @@
 ###Aluno-Frontend
 Este projeto compõe o Frontend de uma aplicação Web e fornece um CRUD de aluno com os campos: nome, endereço e foto.
 
+![Captura de tela de 2020-03-09 18-32-33 (1)](https://user-images.githubusercontent.com/19176989/76260425-8b1e5b80-6236-11ea-97a8-56a389a4c29a.png)
+
+
 ###Funções e URLs
 Registrar aluno: POST https://aluno-backend.herokuapp.com/index.php/student/student Campos(multipart/form-data): nome(String); endereco(String); foto(File).
 
