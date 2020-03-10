@@ -24,6 +24,6 @@ React: Biblioteca JavaScript destinada a criação de interfaces com usuário.
 
 ## Instalação e execução do programa
 1-Salve a aplicação em um diretório. 
-2-Vá até o diretório do projeto, via terminal linux  e digite "yran start" ou "npm start".
+2-Vá até o diretório do projeto, via terminal linux  e digite "yarn start" ou "npm start".
 
 
